@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "KmerTopology"
+version = "0.0"
+description = "Kmer Topology extracts topological information about the distribution of kmers in a nucleotide sequence"
+authors = [
+  { name="Yuta Hozumi", email="yhozumi3@gatech.edu" }
+]
+dependencies = [
+  "numpy", 
+  "gudhi", 
+  "Cython",
+  "Ripser", 
+  "matplotlib",
+  "scikit-learn", 
+  "scipy",
+  "biopython",
+  "pandas"
+]
